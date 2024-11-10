@@ -1,0 +1,157 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background: linear-gradient(to bottom right, #004080, #008080); /* Gradient for a soft background effect */
+    color: #f0f0f0; /* Light text color for readability */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #0000; /* Dark blue for trust and reliability */
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Navigation Links */
+nav {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 3rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #66a3ff; /* Light blue highlight on hover */
+    border-radius: 5px;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 2rem;
+    background-color: #ffffff; /* White background for contrast */
+    color: #333; /* Dark text for readability */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* Section Headings */
+h2 {
+    color: #ffffff; /* Dark blue for consistency */
+    margin-bottom: 1rem;
+    font-size: 50px;
+}
+
+/* Product Links */
+a.product-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.product-link:hover {
+    text-decoration: underline;
+}
+
+/* Core Values List */
+ul {
+    list-style: none;
+    padding: 1rem;
+    background-color: #f0f8ff; /* Light, soft blue background */
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Contact Section */
+.contact-info {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #e0f7e8; /* Light green for reliability */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #003366;
+    color: #f0f0f0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    border-radius: 8px;
+}
+
+/* Button Styling */
+button, .social-media a {
+    background-color: #004080; /* Dark blue for consistency */
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+button:hover, .social-media a:hover {
+    background-color: #66a3ff; /* Light blue for hover effect */
+}
+
+/* Social Media Links */
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-media a {
+    font-size: 1.5rem; /* Adjust size for visibility */
+    color: #ffffff; /* White icons for better visibility on a dark background */
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #66a3ff; /* Light blue on hover for effect */
+}
